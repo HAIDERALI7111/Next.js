@@ -21,7 +21,7 @@ const Slide:React.FC<propsType> = ({img, title,mainTitle,price}) => {
             <h3 className="text-[34px] text-black">
               starting at ('')
               <b className="text-[24px] md:text-[24px] lg:text-[30px]">{price}</b>
-              .00 
+               
             </h3>
             <div className="bg:accent text-black text-[14px] md:text-[16px] p-2 px-4 rounded-lg inline-block
             cursor-pointer hover:bg-blue-500"> 
